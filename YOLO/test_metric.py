@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from YOLO.utils import *
+from YOLO.evaluation_metric import *
 
 
 def test_iou():
