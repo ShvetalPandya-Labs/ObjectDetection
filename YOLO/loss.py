@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from YOLO.utils import intersection_over_union
+from YOLO.metrics.evaluation_metrics import intersection_over_union
 
 
 class YoloLoss(nn.Module):
